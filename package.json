@@ -1,0 +1,18 @@
+{
+  "name": "contacts-relay",
+  "version": "1.0.0",
+  "description": "Stateless Socket.IO relay for real-time presence, messaging, and WebRTC signaling. Never touches MySQL or PHP.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5"
+  }
+}
